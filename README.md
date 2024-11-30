@@ -1,4 +1,4 @@
-# AWS Face Recognition Service
+# Serverless Face Identity Verification Using AWS Rekognition
 
 ## Overview
 

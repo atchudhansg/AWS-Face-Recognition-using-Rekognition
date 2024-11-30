@@ -68,3 +68,6 @@ The system follows this workflow:
 ## License
 
 This project is licensed under the Apache License 2.0. See the `LICENSE` file for details.
+
+## Acknowledgments
+[**Reference Repository**](https://github.com/teja156/amazon-rekognition-example/tree/main)

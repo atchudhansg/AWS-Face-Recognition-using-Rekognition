@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository demonstrates the results of an AWS Face Recognition Service built using AWS Rekognition. The project leverages a serverless architecture with Amazon S3, AWS Lambda, and DynamoDB to provide a scalable and efficient face recognition solution.
+This repository demonstrates the results of an AWS Face Recognition Service built using AWS Rekognition. The project uses a serverless architecture with Amazon S3, AWS Lambda, and DynamoDB to provide a scalable and efficient face recognition solution.
 
 ---
 
@@ -21,16 +21,27 @@ This repository demonstrates the results of an AWS Face Recognition Service buil
 Here are the results from the implemented AWS Face Recognition Service:
 
 ### Recognized Individuals
-- **Name**: Elon Musk
-- **Confidence**: 99.87%
-- **Face ID**: `faceId_12345`
+- **Name**: Bill Gates
+- **Confidence**: 99.98%
+- **Face ID**: `0c38467a-f79d-450d-9823-76616f1c825c`
 
-![Elon Recognized](./assets/elon-recognized.png)
+- **Name**: Elon Musk
+- **Confidence**: 99.97%
+- **Face ID**: `a2292089-9f6c-4f27-ac60-e23df24c40a5`
+
+- **Name**: Sundar Pichai
+- **Confidence**: 99.87%
+- **Face ID**: `5fa0066-7d60-415b-a007-3ac75b582e95`
+
+
+
+
+![Elon Recognized](./recognised_screenshot.png)
 
 ### Unrecognized Individual
 An unrecognized individual's face, which isn't stored in DynamoDB, will be flagged as "No Match."
 
-![Unrecognized Face](./assets/unrecognized-face.png)
+![Unrecognized Face](./not-recognised-screenshot.png)
 
 ---
 
@@ -38,7 +49,7 @@ An unrecognized individual's face, which isn't stored in DynamoDB, will be flagg
 
 For a step-by-step guide to implementing this project, including the setup of S3, Lambda, Rekognition, and DynamoDB, visit the detailed instructions here:
 
-[**Detailed Implementation Guide**](https://example.com/implementation-guide)
+[**Detailed Implementation Guide**](https://drive.google.com/file/d/1TmMDrUm_yZjUceKGI8ZaQSDpnrtCfV0G/view)
 
 ---
 
